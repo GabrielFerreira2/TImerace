@@ -1,0 +1,73 @@
+#calendario{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f6f3f3;
+    width: 100%;
+    padding: 30px;
+}
+
+#calendario-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calendario li{
+    list-style: none;
+}
+
+#calendario a{
+    text-decoration: none;
+}
+
+#calendario-items{
+    display: flex;
+    overflow-x: hidden;
+    text-align: center;
+    
+}
+
+#calendario-items h1{
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+#calendario-items h6{
+    font-weight: lighter;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.calendario-item{
+    padding: 5px;
+}
+
+#calendario h1{
+    font-size: 3vw;
+    font-weight: bolder;
+}
+#calendario-pesquisa{
+    display: flex;
+}
+
+#calendario-pesquisa input{
+    width: 90%;
+    height: 50px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    outline: none;
+    padding: 15px;
+}
+
+#calendario-pesquisa input::placeholder{
+    color: #939292;
+}
+
+.calendario-item h1{
+    margin: 0;
+}

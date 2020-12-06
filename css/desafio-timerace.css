@@ -1,0 +1,30 @@
+#desafio-timerace{
+    padding: 30px;
+    background-color: #2be57b;
+}
+
+#desafio-timerace p{
+    font-size: 1.5vw;
+    width: 150px;
+    margin-right: 10%;
+}
+
+#desafio-timerace h1{
+    font-weight: bolder;
+    font-size: 6vw;
+}
+
+#desafio-timerace span{
+    font-size: 1.vw;
+    margin-right: 10%;
+}
+
+@media only screen and (max-width: 500px){
+    #desafio-timerace p{
+        font-size: 2vw;
+    }
+    #desafio-timerace span{
+        margin-right: 5%;
+        font-size: 2vw;
+    }
+}

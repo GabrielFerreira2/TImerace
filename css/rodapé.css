@@ -1,0 +1,119 @@
+
+#rodape{
+    display: flex;
+    width: 100%;
+    height: auto;
+   background-color: #4e4e4e;
+   color: white;
+   padding: 30px;
+}
+
+#rodape #logo{
+    margin-bottom: 60px;
+}
+
+#rodape span{
+    font-weight: bolder;
+}
+
+#rodape a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+#area-do-atleta{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 25%;
+}
+
+#area-do-atleta h6{
+    font-weight: bolder;
+}
+
+#area-do-atleta a{
+    margin: 0;
+}
+
+#duvidas{
+    background-color: #f6f3f3;
+    border-radius: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    width: 385px;
+    position: relative;
+    top: -40px;
+}
+
+#duvidas h2{
+    color: #0e9246;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+#duvidas input{
+    width: 100%;
+    height: 50px;
+}
+
+.duvidas-input{
+    width: auto;
+    border: 2px solid #a2a0a0;
+    margin-bottom: 15px;
+    resize: none;
+    border-radius: 10px;
+    outline: none;
+    width: 300px;
+    padding: 15px;
+}
+
+#duvidas textarea{
+    height: 110px;
+}
+
+.duvidas-input::placeholder{
+    color: #939292;
+}
+
+#duvidas button{
+    width: 140px;
+    height: 50px;
+    background-color: #2be57b;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 25%;
+    outline: none;
+}
+
+@media only screen and (max-width: 800px){
+    #duvidas{
+        margin-top: 50px;
+        width: 300px;
+        height: auto;
+        padding: 15px;
+    }
+
+    #duvidas .duvidas-input{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    #duvidas{
+        top: 0;
+        margin-left: -10%;
+    }
+}

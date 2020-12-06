@@ -1,0 +1,144 @@
+#corrida{
+    display: flex;
+    width: 100%;
+}
+
+#corrida-1{
+    width: 50%;
+    height: 100%;
+    background-image: url("/img/background.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    color: white;
+    text-align: left;
+}
+
+#corrida-1-titulo{
+    position: relative;
+    left: -15px;
+    width: 50%;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+#corrida-1-titulo h1{
+    font-size: 3vw;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+#corrida-1-titulo h3{
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+#corrida-1 p{
+    font-size: 1vw;
+    text-align: left;
+    margin: 0;
+}
+#corrida-1 p + p{
+    margin-bottom: 30px;
+}
+#p{
+    width: 50%;
+}
+#modalidade, #local{
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+#modalidade h4, #local h4{
+    font-weight: lighter;
+}
+#modalidade img, #local img{
+    margin-bottom: 15px;
+}
+
+#corrida-2{
+    width: 50%;
+    background-color: #0e9246;
+    color: white;
+}
+#corrida-2 h1{
+    margin-top: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+#corrida-2 img{
+    margin-right: 30px;
+}
+#corrida-2 .col-12{
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+#corrida-2 p{
+    text-align: left;
+    height: auto;
+    align-self: center;
+}
+
+#corrida-2 button{
+    border-radius: 8px;
+    background-color: white;
+    color: #0e9246;
+    font-weight: bolder;
+    padding: 5px 15px;
+    border: none;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+    outline: none;
+}
+
+
+@media only screen and (max-width: 1023px){
+    #corrida{
+        display: block;
+    }    
+    #corrida-1{
+        width: 100%;
+    }
+    #corrida-2{
+        width: 100%;
+    }   
+}
+
+@media only screen and (max-width: 900px){
+    #corrida-1 p{
+        font-size: 1.3vw;
+    }
+    #corrida-1-titulo{
+        left: 0;
+    }
+    #corrida p{
+        text-align: center;
+    }
+
+    #corrida h1{
+        text-align: center;
+    }
+    #corrida h3{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 700px){
+
+
+    #corrida-1 h1{
+        text-align: center;
+        font-size: 5vw;
+    }
+    #corrida-1 h3{
+        text-align: center;
+        font-size: 4vw;
+    }
+    #corrida-1 p{
+        font-size: 2vw;
+        text-align: center;
+    }
+
+
+
+
+}

@@ -1,0 +1,51 @@
+#solucoes{
+    width: 100%;
+    background-color: #f6f3f3;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding: 30px;
+}
+
+#solucoes img{
+    margin-bottom: 15px;
+}
+
+#solucoes h1{
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-size: 3.3vw;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+#solucoes h2{
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+#solucoes h4{
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-size: 1.8vw;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 800px){
+    #solucoes h2{
+        font-size: 3vw;
+    }
+    #solucoes h4{
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #solucoes h2{
+        font-size: 5vw;
+    }
+    #solucoes h4{
+        font-size: 3vw;
+    }
+}

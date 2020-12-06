@@ -1,0 +1,9 @@
+#pre-header{
+    height: 15%;
+    background-color: #0e9246;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

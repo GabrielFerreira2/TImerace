@@ -1,0 +1,45 @@
+#apoie{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e9246;
+    padding: 30px;
+    color: white;
+}
+
+#apoie #titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#titulo #texto{
+    margin-left: 15px;
+    text-align: left;
+}
+
+#titulo #texto h1{
+    font-size: 3vw;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+#titulo #texto h4{
+    font-size: 2vw;
+    font-weight: lighter;
+}
+
+#apoie img{
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px){
+    #apoie #titulo{
+        width: 100%;
+    }
+    #titulo #texto h4{
+        font-size: 4vw;
+    }
+}
